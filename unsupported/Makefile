@@ -8,7 +8,7 @@ RM		= /bin/rm
 SED             = /bin/sed
 LEX		= flex
 LEXLIB		= -lfl
-CFLAGS		=  -O0 -Wall -std=gnu99 -g -g -O2  -DIRCD_PREFIX=\"/home/j4jackj/ircd\"
+CFLAGS		=  -O0 -Wall -std=gnu99 -g -g -O2  -DIRCD_PREFIX=\"/home/ronsorinc/hIRCd/run\"
 PICFLAGS	= -fPIC -DPIC -shared
 MKDEP		= gcc -MM
 INSTALL		= /usr/bin/install -c
@@ -16,7 +16,7 @@ INSTALL_PROGRAM	= ${INSTALL}
 INSTALL_DATA	= ${INSTALL} -m 644
 INSTALL_SUID    = ${INSTALL} -o root -m 4755
 SHELL		= /bin/sh
-AUTOMODULEDIR	= /home/j4jackj/ircd/modules/unsupported
+AUTOMODULEDIR	= /home/ronsorinc/hIRCd/run/modules/unsupported
 
 SSL_LIBS	=  -lcrypto
 SSL_INCLUDES	= 
